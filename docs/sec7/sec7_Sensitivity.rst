@@ -1,7 +1,6 @@
 7 Sensitivity
 =============
 
-This notebook presents computations in section 7 of the paper.
 
 
 TODO:texts in section 7
@@ -336,14 +335,15 @@ Compute as follows:
 
 Values of the paramters are as follows:
 
-================================ ==========
-Parameters                       values
-================================ ==========
-:math:`\eta`                     0.032
-:math:`\gamma_1`                 0.00017675
-:math:`\gamma_2`                 0.0044
-Initial consumption, :math:`C_0` 17.39
-================================ ==========
+========================================  ==========
+Parameters                                values
+========================================  ==========
+:math:`\eta`                              0.032
+:math:`\gamma_1`                          0.00017675
+:math:`\gamma_2`                          0.0044
+Initial consumption, :math:`C_0`          17.39
+Initial temperature anomaly, :math:`Y_0`     1.1
+========================================  ==========
 
 .. code:: ipython3
    :name: logscc

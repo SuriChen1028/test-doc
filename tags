@@ -2635,7 +2635,6 @@ $a	docs/_build/html/_static/jquery.js	/^a.removeEventListener("load",S),r.ready(
 5.3 Local ambiguity aversion¶	docs/_build/html/sec5/sec5_UncertaintyAversion.html	/^<h2 id="local-ambiguity-aversion">5.3 Local ambiguity aversion<a class="headerlink" href="#local/;"	i
 6 A climate component of a planner’s decision problem	docs/sec6/sec6_DecisionProblem.rst	/^6 A climate component of a planner’s decision problem$/;"	c
 6 A climate component of a planner’s decision problem¶	docs/_build/html/sec6/sec6_DecisionProblem.html	/^<h1 id="sec6-sec6-decisionproblem--page-root">6 A climate component of a planner’s decision pr/;"	h
-6 A climate component of a planner’s decision problem¶	docs/_build/html/sec6_DecisionProblem.html	/^<h1 id="sec6-decisionproblem--page-root">6 A climate component of a planner’s decision problem/;"	h
 6.1 Parameters	docs/sec6/sec6_DecisionProblem.rst	/^6.1 Parameters$/;"	s	chapter:6 A climate component of a planner’s decision problem
 6.2 Computation	docs/sec6/sec6_DecisionProblem.rst	/^6.2 Computation$/;"	s	chapter:6 A climate component of a planner’s decision problem
 6.2.1 Step I:	docs/sec6/sec6_DecisionProblem.rst	/^6.2.1 Step I:$/;"	S	section:6.2 Computation
@@ -4660,7 +4659,6 @@ __drawer	docs/_build/html/sec3/sec3_StochasticDamage.html	/^  <input class="md-t
 __drawer	docs/_build/html/sec4/sec4_IllustrativeEcon.html	/^  <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer">$/;"	I
 __drawer	docs/_build/html/sec5/sec5_UncertaintyAversion.html	/^  <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer">$/;"	I
 __drawer	docs/_build/html/sec6/sec6_DecisionProblem.html	/^  <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer">$/;"	I
-__drawer	docs/_build/html/sec6_DecisionProblem.html	/^  <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer">$/;"	I
 __drawer	docs/_build/html/sec7/sec7_Sensitivity.html	/^  <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer">$/;"	I
 __drawer	docs/_build/html/sec8/sec8_UncertaintyDecomposition.html	/^  <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer">$/;"	I
 __drawer	docs/_build/html/sec9/sec9_RicherSetting.html	/^  <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer">$/;"	I
@@ -4680,7 +4678,6 @@ __github	docs/_build/html/sec3/sec3_StochasticDamage.html	/^      <svg xmlns="ht
 __github	docs/_build/html/sec4/sec4_IllustrativeEcon.html	/^      <svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="416" height="448" viewBox="0 0 416 448"/;"	I
 __github	docs/_build/html/sec5/sec5_UncertaintyAversion.html	/^      <svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="416" height="448" viewBox="0 0 416 448"/;"	I
 __github	docs/_build/html/sec6/sec6_DecisionProblem.html	/^      <svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="416" height="448" viewBox="0 0 416 448"/;"	I
-__github	docs/_build/html/sec6_DecisionProblem.html	/^      <svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="416" height="448" viewBox="0 0 416 448"/;"	I
 __github	docs/_build/html/sec7/sec7_Sensitivity.html	/^      <svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="416" height="448" viewBox="0 0 416 448"/;"	I
 __github	docs/_build/html/sec8/sec8_UncertaintyDecomposition.html	/^      <svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="416" height="448" viewBox="0 0 416 448"/;"	I
 __github	docs/_build/html/sec9/sec9_RicherSetting.html	/^      <svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="416" height="448" viewBox="0 0 416 448"/;"	I
@@ -4702,7 +4699,6 @@ __search	docs/_build/html/sec3/sec3_StochasticDamage.html	/^  <input class="md-t
 __search	docs/_build/html/sec4/sec4_IllustrativeEcon.html	/^  <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search">$/;"	I
 __search	docs/_build/html/sec5/sec5_UncertaintyAversion.html	/^  <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search">$/;"	I
 __search	docs/_build/html/sec6/sec6_DecisionProblem.html	/^  <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search">$/;"	I
-__search	docs/_build/html/sec6_DecisionProblem.html	/^  <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search">$/;"	I
 __search	docs/_build/html/sec7/sec7_Sensitivity.html	/^  <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search">$/;"	I
 __search	docs/_build/html/sec8/sec8_UncertaintyDecomposition.html	/^  <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search">$/;"	I
 __search	docs/_build/html/sec9/sec9_RicherSetting.html	/^  <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search">$/;"	I
@@ -5863,7 +5859,6 @@ documentation_options	docs/_build/html/sec3/sec3_StochasticDamage.html	/^    <sc
 documentation_options	docs/_build/html/sec4/sec4_IllustrativeEcon.html	/^    <script id="documentation_options" data-url_root="..\/" src="..\/_static\/documentation_opti/;"	I
 documentation_options	docs/_build/html/sec5/sec5_UncertaintyAversion.html	/^    <script id="documentation_options" data-url_root="..\/" src="..\/_static\/documentation_opti/;"	I
 documentation_options	docs/_build/html/sec6/sec6_DecisionProblem.html	/^    <script id="documentation_options" data-url_root="..\/" src="..\/_static\/documentation_opti/;"	I
-documentation_options	docs/_build/html/sec6_DecisionProblem.html	/^    <script id="documentation_options" data-url_root=".\/" src="_static\/documentation_options.j/;"	I
 documentation_options	docs/_build/html/sec7/sec7_Sensitivity.html	/^    <script id="documentation_options" data-url_root="..\/" src="..\/_static\/documentation_opti/;"	I
 documentation_options	docs/_build/html/sec8/sec8_UncertaintyDecomposition.html	/^    <script id="documentation_options" data-url_root="..\/" src="..\/_static\/documentation_opti/;"	I
 documentation_options	docs/_build/html/sec9/sec9_RicherSetting.html	/^    <script id="documentation_options" data-url_root="..\/" src="..\/_static\/documentation_opti/;"	I
@@ -7217,7 +7212,6 @@ sec2-sec2-uncertainclimatedynamics--page-root	docs/_build/html/sec2/sec2_Uncerta
 sec3-sec3-stochasticdamage--page-root	docs/_build/html/sec3/sec3_StochasticDamage.html	/^<h1 id="sec3-sec3-stochasticdamage--page-root">3 A stochastic model of damages<a class="headerli/;"	I
 sec4-sec4-illustrativeecon--page-root	docs/_build/html/sec4/sec4_IllustrativeEcon.html	/^<h1 id="sec4-sec4-illustrativeecon--page-root">4 Illustrative Economy<a class="headerlink" href=/;"	I
 sec5-sec5-uncertaintyaversion--page-root	docs/_build/html/sec5/sec5_UncertaintyAversion.html	/^<h1 id="sec5-sec5-uncertaintyaversion--page-root">5 Uncertainty aversion<a class="headerlink" hr/;"	I
-sec6-decisionproblem--page-root	docs/_build/html/sec6_DecisionProblem.html	/^<h1 id="sec6-decisionproblem--page-root">6 A climate component of a planner’s decision problem/;"	I
 sec6-sec6-decisionproblem--page-root	docs/_build/html/sec6/sec6_DecisionProblem.html	/^<h1 id="sec6-sec6-decisionproblem--page-root">6 A climate component of a planner’s decision pr/;"	I
 sec7-sec7-sensitivity--page-root	docs/_build/html/sec7/sec7_Sensitivity.html	/^<h1 id="sec7-sec7-sensitivity--page-root">7 Sensitivity<a class="headerlink" href="#sec7-sec7-se/;"	I
 sec8-sec8-uncertaintydecomposition--page-root	docs/_build/html/sec8/sec8_UncertaintyDecomposition.html	/^<h1 id="sec8-sec8-uncertaintydecomposition--page-root">8 Uncertainty Decomposition<a class="head/;"	I

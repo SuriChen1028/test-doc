@@ -1,7 +1,6 @@
 6 A climate component of a planner’s decision problem
 =====================================================
 
-This notebook corresponds to section 6 in the paper.
 
 
 As we show in the `appendix A <../app/appendices.rst>`__, the planners HJB

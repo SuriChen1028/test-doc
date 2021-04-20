@@ -1,7 +1,6 @@
 5 Uncertainty aversion
 ======================
 
-This notebook corresponds to the section 5 of the paper.
 
 
 Here, we mainly discuss the **components of uncertainty**.

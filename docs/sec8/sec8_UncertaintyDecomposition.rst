@@ -1,7 +1,6 @@
 8 Uncertainty Decomposition
 ===========================
 
-This notebook presents compuations in section 8 of the paper.
 
 
 
