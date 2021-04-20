@@ -10,9 +10,11 @@
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
 "	docs/_build/html/_static/underscore.js	/^var n="1.12.0",r="object"==typeof self&&self.self===self&&self||"object"==typeof global&&global./;"	p	class:AnonymousFunction320182da0200.Cn
-#fn1	docs/sec2/sec2_UncertainClimateDynamics.rst	/^.. [#fn1] `See equation (5) of :cite:t:`Joosetal:2013` and  equations (1)-(3) of :cite:t:`Pierre/;"	C	section:2.2 Stochastic climate pulses
+#fn1	docs/sec2/sec2_UncertainClimateDynamics.rst	/^.. [#fn1] See equation (5) of :cite:t:`Joosetal:2013`  and  equations (1)-(3) of :cite:t:`Pierre/;"	C	section:2.2 Stochastic climate pulses
 #fn1	docs/sec3/sec3_StochasticDamage.rst	/^.. [#fn1] This intensity is recognizable as the scaled version of  half normal density with mean/;"	C	chapter:3 A stochastic model of damages
-#fn2	docs/sec2/sec2_UncertainClimateDynamics.rst	/^.. [#fn2] `In independent work, :cite:t:`DietzVenmans:2019` and :cite:t:`BarnettBrockHansen:2020/;"	C	section:2.2 Stochastic climate pulses
+#fn1	docs/sec7/sec7_Sensitivity.rst	/^.. [#fn1] :cite:t:`BansalYaron:2004` also include a shock to stochastic volatility that we abstr/;"	C	section:7.2 Structured climate uncertainty
+#fn2	docs/sec2/sec2_UncertainClimateDynamics.rst	/^.. [#fn2] In independent work, :cite:t:`DietzVenmans:2019`  and :cite:t:`BarnettBrockHansen:2020/;"	C	section:2.2 Stochastic climate pulses
+#fn2	docs/sec7/sec7_Sensitivity.rst	/^.. [#fn2] For an example in which the structured uncertainty does simply imitate a model misspec/;"	C	section:7.2 Structured climate uncertainty
 #top-link	docs/_build/html/_static/basic.css	/^    #top-link {$/;"	i
 $	docs/_build/html/_static/jquery.js	/^a.removeEventListener("load",S),r.ready()}"complete"===d.readyState||"loading"!==d.readyState&&!/;"	f
 $a	docs/_build/html/_static/jquery.js	/^a.removeEventListener("load",S),r.ready()}"complete"===d.readyState||"loading"!==d.readyState&&!/;"	f
@@ -4826,7 +4828,6 @@ b_max	source/.ipynb_checkpoints/modified_v2-checkpoint.py	/^b_max = 1$/;"	v
 b_max	source/.ipynb_checkpoints/modified_v5-checkpoint.py	/^b_max = 1$/;"	v
 b_min	source/.ipynb_checkpoints/modified_v2-checkpoint.py	/^b_min = 1e-6$/;"	v
 b_min	source/.ipynb_checkpoints/modified_v5-checkpoint.py	/^b_min = 1e-6$/;"	v
-base	docs/_build/html/_images/drawing.svg	/^     inkscape:window-maximized="1" \/>$/;"	i
 base	docs/_build/html/_static/drawing.svg	/^     inkscape:window-maximized="1" \/>$/;"	i
 base	docs/_static/drawing.svg	/^     inkscape:window-maximized="1" \/>$/;"	i
 baseCreate	docs/_build/html/_static/underscore-1.12.0.js	/^  function baseCreate(prototype) {$/;"	f	function:AnonymousFunctionf76f8a270200
@@ -4962,7 +4963,6 @@ caption:hover > a.headerlink	docs/_build/html/_static/basic.css	/^caption:hover 
 catch	docs/_build/html/_static/jquery-3.5.1.js	/^				"catch": function( fn ) {$/;"	m	class:AnonymousFunctionef6dc9e29f00.promise
 catch	docs/_build/html/_static/jquery.js	/^!function(a,b){"use strict";"object"==typeof module&&"object"==typeof module.exports?module.expo/;"	m	class:AnonymousFunction877a8e60ae00.e
 cb	docs/_build/html/_static/underscore-1.12.0.js	/^  function cb(value, context, argCount) {$/;"	f	function:AnonymousFunctionf76f8a270200
-cc	docs/_build/html/_images/drawing.svg	/^   sodipodi:docname="drawing.svg">$/;"	n	uri:http://creativecommons.org/ns#
 cc	docs/_build/html/_static/drawing.svg	/^   sodipodi:docname="drawing.svg">$/;"	n	uri:http://creativecommons.org/ns#
 cc	docs/_static/drawing.svg	/^   sodipodi:docname="drawing.svg">$/;"	n	uri:http://creativecommons.org/ns#
 chain	docs/_build/html/_static/underscore-1.12.0.js	/^  function chain(obj) {$/;"	f	function:AnonymousFunctionf76f8a270200
@@ -5592,7 +5592,6 @@ dataFile	source/.ipynb_checkpoints/modified_v2-checkpoint.py	/^dataFile = '..\/d
 dataFile	source/.ipynb_checkpoints/modified_v5-checkpoint.py	/^dataFile = '..\/data\/solution\/solu_modified_5*50*5_10_0205'$/;"	v
 dataFile	source/.ipynb_checkpoints/modified_v6_exper-checkpoint.py	/^dataFile = '..\/data\/solution\/solu_modified_v6_{}*{}_{}_{}_{}'.format(numz, numy, xi_m, xi_a, /;"	v
 dataFile	source/.ipynb_checkpoints/modified_v7-checkpoint.py	/^dataFile = '..\/data\/solution\/solu_modified_v6_{}*{}_{}_{}'.format(numz, numy, xi_a, time_stor/;"	v
-dc	docs/_build/html/_images/drawing.svg	/^   sodipodi:docname="drawing.svg">$/;"	n	uri:http://purl.org/dc/elements/1.1/
 dc	docs/_build/html/_static/drawing.svg	/^   sodipodi:docname="drawing.svg">$/;"	n	uri:http://purl.org/dc/elements/1.1/
 dc	docs/_static/drawing.svg	/^   sodipodi:docname="drawing.svg">$/;"	n	uri:http://purl.org/dc/elements/1.1/
 dd	docs/_build/html/_static/basic.css	/^dd {$/;"	s
@@ -5664,7 +5663,6 @@ deepGet	docs/_build/html/_static/underscore-1.12.0.js	/^  function deepGet(obj, 
 defaultPrefilter	docs/_build/html/_static/jquery-3.5.1.js	/^function defaultPrefilter( elem, props, opts ) {$/;"	f
 deferQuery	docs/_build/html/_static/searchtools.js	/^  deferQuery : function(query) {$/;"	m	class:Search
 deferred	docs/_build/html/_static/jquery-3.5.1.js	/^			deferred[ tuple[ 0 ] ] = function() {$/;"	f	function:AnonymousFunctionef6dc9e2a500
-defs2	docs/_build/html/_images/drawing.svg	/^     id="defs2">$/;"	i
 defs2	docs/_build/html/_static/drawing.svg	/^     id="defs2">$/;"	i
 defs2	docs/_static/drawing.svg	/^     id="defs2">$/;"	i
 delegateType	docs/_build/html/_static/jquery-3.5.1.js	/^		delegateType: delegateType$/;"	p	class:jQuery.event.special
@@ -5929,22 +5927,16 @@ ell20	source/.ipynb_checkpoints/solution_plots-checkpoint.py	/^ell20, r20, phi20
 ell40	source/.ipynb_checkpoints/solution_plots-checkpoint.py	/^ell40, r40, phi40 = compute_ell_r_phi(solu40)$/;"	v
 ell_sorted	source/.ipynb_checkpoints/solution_plots-checkpoint.py	/^ell_sorted = ell_new[index[:, 0]]$/;"	v
 ell_step	source/.ipynb_checkpoints/solution_plots-checkpoint.py	/^ell_step = 1e-7$/;"	v
-ellipse70	docs/_build/html/_images/drawing.svg	/^       ry="2.6096787" \/>$/;"	i
 ellipse70	docs/_build/html/_static/drawing.svg	/^       ry="2.6096787" \/>$/;"	i
 ellipse70	docs/_static/drawing.svg	/^       ry="2.6096787" \/>$/;"	i
-ellipse72	docs/_build/html/_images/drawing.svg	/^       ry="2.6096787" \/>$/;"	i
 ellipse72	docs/_build/html/_static/drawing.svg	/^       ry="2.6096787" \/>$/;"	i
 ellipse72	docs/_static/drawing.svg	/^       ry="2.6096787" \/>$/;"	i
-ellipse76	docs/_build/html/_images/drawing.svg	/^       ry="2.6096787" \/>$/;"	i
 ellipse76	docs/_build/html/_static/drawing.svg	/^       ry="2.6096787" \/>$/;"	i
 ellipse76	docs/_static/drawing.svg	/^       ry="2.6096787" \/>$/;"	i
-ellipse934	docs/_build/html/_images/drawing.svg	/^       ry="2.6096787" \/>$/;"	i
 ellipse934	docs/_build/html/_static/drawing.svg	/^       ry="2.6096787" \/>$/;"	i
 ellipse934	docs/_static/drawing.svg	/^       ry="2.6096787" \/>$/;"	i
-ellipse936	docs/_build/html/_images/drawing.svg	/^       ry="2.6096787" \/>$/;"	i
 ellipse936	docs/_build/html/_static/drawing.svg	/^       ry="2.6096787" \/>$/;"	i
 ellipse936	docs/_static/drawing.svg	/^       ry="2.6096787" \/>$/;"	i
-ellipse938	docs/_build/html/_images/drawing.svg	/^       ry="2.6096787" \/>$/;"	i
 ellipse938	docs/_build/html/_static/drawing.svg	/^       ry="2.6096787" \/>$/;"	i
 ellipse938	docs/_static/drawing.svg	/^       ry="2.6096787" \/>$/;"	i
 ells	source/.ipynb_checkpoints/modified_v2-checkpoint.py	/^ells = np.zeros(numell*2)$/;"	v
@@ -6329,25 +6321,29 @@ id1	docs/_build/html/bib_file.html	/^<p id="id1"><dl class="citation">$/;"	I
 id1	docs/_build/html/sec1/sec1_Introduction.html	/^<p>In climate economics, <span id="id1">Weitzman [<a class="reference internal" href="..\/bib_fi/;"	I
 id1	docs/_build/html/sec2/sec2_UncertainClimateDynamics.html	/^<span id="id1">Joos <em>et al.<\/em> [<a class="reference internal" href="..\/bib_file.html#id36/;"	I
 id1	docs/_build/html/sec3/sec3_StochasticDamage.html	/^<span id="id1">Barnett <em>et al.<\/em> [<a class="reference internal" href="..\/bib_file.html#i/;"	I
-id1	docs/_build/html/sec9/sec9_RicherSetting.html	/^<span id="id1">Eberly and Wang [<a class="reference internal" href="..\/bib_file.html#id7">12<\//;"	I
-id10	docs/_build/html/bib_file.html	/^<dt class="label" id="id10"><span class="brackets">20<\/span><\/dt>$/;"	I
-id10	docs/_build/html/sec2/sec2_UncertainClimateDynamics.html	/^<dd><p><cite>See equation (5) of :cite:t:`Joosetal:2013<\/cite> and  equations (1)-(3) of <span /;"	I
-id11	docs/_build/html/bib_file.html	/^<dt class="label" id="id11"><span class="brackets">21<\/span><\/dt>$/;"	I
-id11	docs/_build/html/sec2/sec2_UncertainClimateDynamics.html	/^<dd><p><cite>See equation (5) of :cite:t:`Joosetal:2013<\/cite> and  equations (1)-(3) of <span /;"	I
-id12	docs/_build/html/bib_file.html	/^<dt class="label" id="id12"><span class="brackets">22<\/span><\/dt>$/;"	I
-id12	docs/_build/html/sec2/sec2_UncertainClimateDynamics.html	/^<dd><p><cite>In independent work, :cite:t:`DietzVenmans:2019<\/cite> and <span id="id12">Barnett/;"	I
-id13	docs/_build/html/bib_file.html	/^<dt class="label" id="id13"><span class="brackets">23<\/span><\/dt>$/;"	I
-id13	docs/_build/html/sec2/sec2_UncertainClimateDynamics.html	/^<dd><p><cite>In independent work, :cite:t:`DietzVenmans:2019<\/cite> and <span id="id12">Barnett/;"	I
-id14	docs/_build/html/bib_file.html	/^<dt class="label" id="id14"><span class="brackets">24<\/span><\/dt>$/;"	I
+id1	docs/_build/html/sec7/sec7_Sensitivity.html	/^Borrowing and updating a specification of growth rate uncertainty of <span id="id1">Hansen <em>e/;"	I
+id1	docs/_build/html/sec9/sec9_RicherSetting.html	/^<span id="id1">Eberly and Wang [<a class="reference internal" href="..\/bib_file.html#id7">16<\//;"	I
+id10	docs/_build/html/bib_file.html	/^<dt class="label" id="id10"><span class="brackets">24<\/span><\/dt>$/;"	I
+id10	docs/_build/html/sec2/sec2_UncertainClimateDynamics.html	/^<dd><p>See equation (5) of <span id="id10">Joos <em>et al.<\/em> [<a class="reference internal" /;"	I
+id11	docs/_build/html/bib_file.html	/^<dt class="label" id="id11"><span class="brackets">14<\/span><\/dt>$/;"	I
+id11	docs/_build/html/sec2/sec2_UncertainClimateDynamics.html	/^<dd><p>See equation (5) of <span id="id10">Joos <em>et al.<\/em> [<a class="reference internal" /;"	I
+id12	docs/_build/html/bib_file.html	/^<dt class="label" id="id12"><span class="brackets">13<\/span><\/dt>$/;"	I
+id12	docs/_build/html/sec2/sec2_UncertainClimateDynamics.html	/^<dd><p>See equation (5) of <span id="id10">Joos <em>et al.<\/em> [<a class="reference internal" /;"	I
+id13	docs/_build/html/bib_file.html	/^<dt class="label" id="id13"><span class="brackets">15<\/span><\/dt>$/;"	I
+id13	docs/_build/html/sec2/sec2_UncertainClimateDynamics.html	/^<dd><p>In independent work, <span id="id13">Dietz and Venmans [<a class="reference internal" hre/;"	I
+id14	docs/_build/html/bib_file.html	/^<dt class="label" id="id14"><span class="brackets">12<\/span><\/dt>$/;"	I
+id14	docs/_build/html/sec2/sec2_UncertainClimateDynamics.html	/^<dd><p>In independent work, <span id="id13">Dietz and Venmans [<a class="reference internal" hre/;"	I
 id15	docs/_build/html/bib_file.html	/^<dt class="label" id="id15"><span class="brackets">25<\/span><\/dt>$/;"	I
+id15	docs/_build/html/sec2/sec2_UncertainClimateDynamics.html	/^<dd><p>In independent work, <span id="id13">Dietz and Venmans [<a class="reference internal" hre/;"	I
 id16	docs/_build/html/bib_file.html	/^<dt class="label" id="id16"><span class="brackets">26<\/span><\/dt>$/;"	I
 id17	docs/_build/html/bib_file.html	/^<dt class="label" id="id17"><span class="brackets">27<\/span><\/dt>$/;"	I
 id18	docs/_build/html/bib_file.html	/^<dt class="label" id="id18"><span class="brackets">28<\/span><\/dt>$/;"	I
 id19	docs/_build/html/bib_file.html	/^<dt class="label" id="id19"><span class="brackets">29<\/span><\/dt>$/;"	I
-id2	docs/_build/html/bib_file.html	/^<dt class="label" id="id2"><span class="brackets">14<\/span><\/dt>$/;"	I
+id2	docs/_build/html/bib_file.html	/^<dt class="label" id="id2"><span class="brackets">18<\/span><\/dt>$/;"	I
 id2	docs/_build/html/sec1/sec1_Introduction.html	/^<span id="id2">Wagner and Weitzman [<a class="reference internal" href="..\/bib_file.html#id67">/;"	I
 id2	docs/_build/html/sec2/sec2_UncertainClimateDynamics.html	/^<span id="id2">Pierrehumbert [<a class="reference internal" href="..\/bib_file.html#id71">9<\/a>/;"	I
 id2	docs/_build/html/sec3/sec3_StochasticDamage.html	/^<span class="math notranslate nohighlight">\\(\\rho\\)<\/span> small. <a class="footnote-referen/;"	I
+id2	docs/_build/html/sec7/sec7_Sensitivity.html	/^Borrowing and updating a specification of growth rate uncertainty of <span id="id1">Hansen <em>e/;"	I
 id2	docs/_build/html/sec9/sec9_RicherSetting.html	/^framework explored by <span id="id2">Acemoglu <em>et al.<\/em> [<a class="reference internal" hr/;"	I
 id20	docs/_build/html/bib_file.html	/^<dt class="label" id="id20"><span class="brackets">30<\/span><\/dt>$/;"	I
 id21	docs/_build/html/bib_file.html	/^<dt class="label" id="id21"><span class="brackets">31<\/span><\/dt>$/;"	I
@@ -6359,9 +6355,10 @@ id26	docs/_build/html/bib_file.html	/^<dt class="label" id="id26"><span class="b
 id27	docs/_build/html/bib_file.html	/^<dt class="label" id="id27"><span class="brackets">36<\/span><\/dt>$/;"	I
 id28	docs/_build/html/bib_file.html	/^<dt class="label" id="id28"><span class="brackets">37<\/span><\/dt>$/;"	I
 id29	docs/_build/html/bib_file.html	/^<dt class="label" id="id29"><span class="brackets">38<\/span><\/dt>$/;"	I
-id3	docs/_build/html/bib_file.html	/^<dt class="label" id="id3"><span class="brackets">15<\/span><\/dt>$/;"	I
+id3	docs/_build/html/bib_file.html	/^<dt class="label" id="id3"><span class="brackets">19<\/span><\/dt>$/;"	I
 id3	docs/_build/html/sec1/sec1_Introduction.html	/^<span id="id3">Pindyck [<a class="reference internal" href="..\/bib_file.html#id58">3<\/a>]<\/sp/;"	I
 id3	docs/_build/html/sec2/sec2_UncertainClimateDynamics.html	/^<span id="id2">Pierrehumbert [<a class="reference internal" href="..\/bib_file.html#id71">9<\/a>/;"	I
+id3	docs/_build/html/sec7/sec7_Sensitivity.html	/^These shocks imply two of  the consumption shocks in <span id="id3">Bansal and Yaron [<a class="/;"	I
 id3	docs/_build/html/sec9/sec9_RicherSetting.html	/^uncertainties. See <span id="id3">Fant <em>et al.<\/em> [<a class="reference internal" href="..\//;"	I
 id30	docs/_build/html/bib_file.html	/^<dt class="label" id="id30"><span class="brackets">39<\/span><\/dt>$/;"	I
 id31	docs/_build/html/bib_file.html	/^<dt class="label" id="id31"><span class="brackets">40<\/span><\/dt>$/;"	I
@@ -6373,9 +6370,10 @@ id36	docs/_build/html/bib_file.html	/^<dt class="label" id="id36"><span class="b
 id37	docs/_build/html/bib_file.html	/^<dt class="label" id="id37"><span class="brackets">10<\/span><\/dt>$/;"	I
 id38	docs/_build/html/bib_file.html	/^<dt class="label" id="id38"><span class="brackets">45<\/span><\/dt>$/;"	I
 id39	docs/_build/html/bib_file.html	/^<dt class="label" id="id39"><span class="brackets">46<\/span><\/dt>$/;"	I
-id4	docs/_build/html/bib_file.html	/^<dt class="label" id="id4"><span class="brackets">17<\/span><\/dt>$/;"	I
+id4	docs/_build/html/bib_file.html	/^<dt class="label" id="id4"><span class="brackets">21<\/span><\/dt>$/;"	I
 id4	docs/_build/html/sec1/sec1_Introduction.html	/^<span id="id4">Morgan <em>et al.<\/em> [<a class="reference internal" href="..\/bib_file.html#id/;"	I
 id4	docs/_build/html/sec2/sec2_UncertainClimateDynamics.html	/^emissions. <a class="footnote-reference brackets" href="#fn2" id="id4">2<\/a><\/p>$/;"	I
+id4	docs/_build/html/sec7/sec7_Sensitivity.html	/^These shocks imply two of  the consumption shocks in <span id="id3">Bansal and Yaron [<a class="/;"	I
 id4	docs/_build/html/sec9/sec9_RicherSetting.html	/^<span id="id4">Kling <em>et al.<\/em> [<a class="reference internal" href="..\/bib_file.html#id3/;"	I
 id40	docs/_build/html/bib_file.html	/^<dt class="label" id="id40"><span class="brackets">47<\/span><\/dt>$/;"	I
 id41	docs/_build/html/bib_file.html	/^<dt class="label" id="id41"><span class="brackets">48<\/span><\/dt>$/;"	I
@@ -6387,7 +6385,7 @@ id46	docs/_build/html/bib_file.html	/^<dt class="label" id="id46"><span class="b
 id47	docs/_build/html/bib_file.html	/^<dt class="label" id="id47"><span class="brackets">54<\/span><\/dt>$/;"	I
 id48	docs/_build/html/bib_file.html	/^<dt class="label" id="id48"><span class="brackets">6<\/span><\/dt>$/;"	I
 id49	docs/_build/html/bib_file.html	/^<dt class="label" id="id49"><span class="brackets">7<\/span><\/dt>$/;"	I
-id5	docs/_build/html/bib_file.html	/^<dt class="label" id="id5"><span class="brackets">16<\/span><\/dt>$/;"	I
+id5	docs/_build/html/bib_file.html	/^<dt class="label" id="id5"><span class="brackets">20<\/span><\/dt>$/;"	I
 id5	docs/_build/html/sec1/sec1_Introduction.html	/^<span id="id5">Barnett <em>et al.<\/em> [<a class="reference internal" href="..\/bib_file.html#i/;"	I
 id5	docs/_build/html/sec2/sec2_UncertainClimateDynamics.html	/^<p>The approximation in <span id="id5">Geoffroy <em>et al.<\/em> [<a class="reference internal" /;"	I
 id5	docs/_build/html/sec9/sec9_RicherSetting.html	/^instance, <span id="id5">Lenton <em>et al.<\/em> [<a class="reference internal" href="..\/bib_fi/;"	I
@@ -6401,7 +6399,7 @@ id56	docs/_build/html/bib_file.html	/^<dt class="label" id="id56"><span class="b
 id57	docs/_build/html/bib_file.html	/^<dt class="label" id="id57"><span class="brackets">4<\/span><\/dt>$/;"	I
 id58	docs/_build/html/bib_file.html	/^<dt class="label" id="id58"><span class="brackets">3<\/span><\/dt>$/;"	I
 id59	docs/_build/html/bib_file.html	/^<dt class="label" id="id59"><span class="brackets">62<\/span><\/dt>$/;"	I
-id6	docs/_build/html/bib_file.html	/^<dt class="label" id="id6"><span class="brackets">13<\/span><\/dt>$/;"	I
+id6	docs/_build/html/bib_file.html	/^<dt class="label" id="id6"><span class="brackets">17<\/span><\/dt>$/;"	I
 id6	docs/_build/html/sec1/sec1_Introduction.html	/^in <span id="id6">Golosov <em>et al.<\/em> [<a class="reference internal" href="..\/bib_file.htm/;"	I
 id6	docs/_build/html/sec2/sec2_UncertainClimateDynamics.html	/^<span id="id6">Arrhenius [<a class="reference internal" href="..\/bib_file.html#id26">11<\/a>]<\//;"	I
 id6	docs/_build/html/sec9/sec9_RicherSetting.html	/^<span id="id6">Cai <em>et al.<\/em> [<a class="reference internal" href="..\/bib_file.html#id4">/;"	I
@@ -6415,7 +6413,7 @@ id66	docs/_build/html/bib_file.html	/^<dt class="label" id="id66"><span class="b
 id67	docs/_build/html/bib_file.html	/^<dt class="label" id="id67"><span class="brackets">2<\/span><\/dt>$/;"	I
 id68	docs/_build/html/bib_file.html	/^<dt class="label" id="id68"><span class="brackets">1<\/span><\/dt>$/;"	I
 id69	docs/_build/html/bib_file.html	/^<dt class="label" id="id69"><span class="brackets">69<\/span><\/dt>$/;"	I
-id7	docs/_build/html/bib_file.html	/^<dt class="label" id="id7"><span class="brackets">12<\/span><\/dt>$/;"	I
+id7	docs/_build/html/bib_file.html	/^<dt class="label" id="id7"><span class="brackets">16<\/span><\/dt>$/;"	I
 id7	docs/_build/html/sec1/sec1_Introduction.html	/^<span id="id7">Cai <em>et al.<\/em> [<a class="reference internal" href="..\/bib_file.html#id49"/;"	I
 id7	docs/_build/html/sec2/sec2_UncertainClimateDynamics.html	/^pulse experiments from <span id="id7">Joos <em>et al.<\/em> [<a class="reference internal" href=/;"	I
 id70	docs/_build/html/bib_file.html	/^<dt class="label" id="id70"><span class="brackets">70<\/span><\/dt>$/;"	I
@@ -6428,12 +6426,12 @@ id76	docs/_build/html/bib_file.html	/^<dt class="label" id="id76"><span class="b
 id77	docs/_build/html/bib_file.html	/^<dt class="label" id="id77"><span class="brackets">76<\/span><\/dt>$/;"	I
 id78	docs/_build/html/bib_file.html	/^<dt class="label" id="id78"><span class="brackets">77<\/span><\/dt>$/;"	I
 id79	docs/_build/html/bib_file.html	/^<dt class="label" id="id79"><span class="brackets">78<\/span><\/dt>$/;"	I
-id8	docs/_build/html/bib_file.html	/^<dt class="label" id="id8"><span class="brackets">18<\/span><\/dt>$/;"	I
+id8	docs/_build/html/bib_file.html	/^<dt class="label" id="id8"><span class="brackets">22<\/span><\/dt>$/;"	I
 id8	docs/_build/html/sec2/sec2_UncertainClimateDynamics.html	/^logarithmic <span id="id8"><a class="reference internal" href="..\/bib_file.html#id26">Arrhenius/;"	I
 id80	docs/_build/html/bib_file.html	/^<dt class="label" id="id80"><span class="brackets">79<\/span><\/dt>$/;"	I
 id81	docs/_build/html/bib_file.html	/^<dt class="label" id="id81"><span class="brackets">80<\/span><\/dt>$/;"	I
 id82	docs/_build/html/bib_file.html	/^<dt class="label" id="id82"><span class="brackets">81<\/span><\/dt>$/;"	I
-id9	docs/_build/html/bib_file.html	/^<dt class="label" id="id9"><span class="brackets">19<\/span><\/dt>$/;"	I
+id9	docs/_build/html/bib_file.html	/^<dt class="label" id="id9"><span class="brackets">23<\/span><\/dt>$/;"	I
 id9	docs/_build/html/sec2/sec2_UncertainClimateDynamics.html	/^<span id="id9">Pierrehumbert [<a class="reference internal" href="..\/bib_file.html#id71">9<\/a>/;"	I
 identity	docs/_build/html/_static/underscore-1.12.0.js	/^  function identity(value) {$/;"	f	function:AnonymousFunctionf76f8a270200
 ie10IsDataView	docs/_build/html/_static/underscore-1.12.0.js	/^  function ie10IsDataView(obj) {$/;"	f	function:AnonymousFunctionf76f8a270200
@@ -6486,7 +6484,6 @@ initOnKeyListeners	docs/_build/html/_static/doctools.js	/^  initOnKeyListeners: 
 initial	docs/_build/html/_static/underscore-1.12.0.js	/^  function initial(array, n, guard) {$/;"	f	function:AnonymousFunctionf76f8a270200
 initialize	docs/_build/html/_static/javascripts/application.js	/^                initialize: function(t) {$/;"	m	class:t
 initialize	docs/_build/html/_static/javascripts/application.js	/^            return e.prototype.initialize = function(e) {$/;"	m	class:e
-inkscape	docs/_build/html/_images/drawing.svg	/^   sodipodi:docname="drawing.svg">$/;"	n	uri:http://www.inkscape.org/namespaces/inkscape
 inkscape	docs/_build/html/_static/drawing.svg	/^   sodipodi:docname="drawing.svg">$/;"	n	uri:http://www.inkscape.org/namespaces/inkscape
 inkscape	docs/_static/drawing.svg	/^   sodipodi:docname="drawing.svg">$/;"	n	uri:http://www.inkscape.org/namespaces/inkscape
 input	docs/_build/html/_static/stylesheets/application.css	/^a,button,input,label{$/;"	s
@@ -6542,7 +6539,6 @@ label	docs/_build/html/_static/stylesheets/application.css	/^a,button,input,labe
 last	docs/_build/html/_static/underscore-1.12.0.js	/^  function last(array, n, guard) {$/;"	f	function:AnonymousFunctionf76f8a270200
 later	docs/_build/html/_static/underscore-1.12.0.js	/^    var later = function() {$/;"	f	function:AnonymousFunctionf76f8a270200.debounce
 later	docs/_build/html/_static/underscore-1.12.0.js	/^    var later = function() {$/;"	f	function:AnonymousFunctionf76f8a270200.throttle
-layer1	docs/_build/html/_images/drawing.svg	/^     id="layer1">$/;"	i
 layer1	docs/_build/html/_static/drawing.svg	/^     id="layer1">$/;"	i
 layer1	docs/_static/drawing.svg	/^     id="layer1">$/;"	i
 left	docs/_build/html/_static/jquery-3.5.1.js	/^			parentOffset = { top: 0, left: 0 };$/;"	p	class:AnonymousFunctionef6dc9e219d00.parentOffset
@@ -6670,7 +6666,6 @@ median	source/.ipynb_checkpoints/simulate-checkpoint.py	/^median = 1.75\/1000$/;
 memoize	docs/_build/html/_static/underscore-1.12.0.js	/^    var memoize = function(key) {$/;"	f	function:AnonymousFunctionf76f8a270200.memoize
 memoize	docs/_build/html/_static/underscore-1.12.0.js	/^  function memoize(func, hasher) {$/;"	f	function:AnonymousFunctionf76f8a270200
 message_	docs/_build/html/_static/javascripts/application.js	/^                    this.data_ = t, this.meta_ = i, this.list_ = o, this.message_ = {$/;"	c	class:AnonymousFunction5461ea2d4700.t.e
-metadata5	docs/_build/html/_images/drawing.svg	/^     id="metadata5">$/;"	i
 metadata5	docs/_build/html/_static/drawing.svg	/^     id="metadata5">$/;"	i
 metadata5	docs/_static/drawing.svg	/^     id="metadata5">$/;"	i
 mightThrow	docs/_build/html/_static/jquery-3.5.1.js	/^								mightThrow = function() {$/;"	f	function:AnonymousFunctionef6dc9e29f00.promise.then.resolve.AnonymousFunctionef6dc9e2a200
@@ -6766,7 +6761,6 @@ np	source/solver.py	/^import numpy as np$/;"	I	nameref:module:numpy
 np	source/utilities.py	/^import numpy as np$/;"	I	nameref:module:numpy
 ns3380f2fe0101	docs/_build/html/_static/images/icons/github.f0b8504a.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="416" height="448" viewBox="0 0 416 448" id="_/;"	n	uri:http://www.w3.org/2000/svg
 ns3a2fb6af0101	docs/_build/html/_static/images/icons/bitbucket.1b09e088.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="352" height="448" viewBox="0 0 352 448" id="_/;"	n	uri:http://www.w3.org/2000/svg
-ns5a0c730d0101	docs/_build/html/_images/drawing.svg	/^   sodipodi:docname="drawing.svg">$/;"	n	uri:http://www.w3.org/2000/svg
 ns5eb86c6f0101	docs/_build/html/_static/images/icons/gitlab.6dd19c00.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="500" height="500" viewBox="0 0 500 500" id="_/;"	n	uri:http://www.w3.org/2000/svg
 ns67aabdfd0101	docs/_static/drawing.svg	/^   sodipodi:docname="drawing.svg">$/;"	n	uri:http://www.w3.org/2000/svg
 ns795d6cc60101	docs/_build/html/_static/images/icons/github.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="416" height="448" viewBox="0 0 416 448" id="_/;"	n	uri:http://www.w3.org/2000/svg
@@ -6780,6 +6774,8 @@ numb	source/.ipynb_checkpoints/modified_v2-checkpoint.py	/^numb = 200$/;"	v
 numb	source/.ipynb_checkpoints/modified_v5-checkpoint.py	/^numb = 5$/;"	v
 numell	source/.ipynb_checkpoints/modified_v2-checkpoint.py	/^numell = 400$/;"	v
 numell	source/.ipynb_checkpoints/modified_v5-checkpoint.py	/^numell = 2000$/;"	v
+numfig	docs/conf.py	/^numfig = True$/;"	v
+numfig_format	docs/conf.py	/^numfig_format = {'code-block': 'Figure %s'}$/;"	v
 numr	source/.ipynb_checkpoints/modified-checkpoint.py	/^numr = 200$/;"	v
 nums	source/.ipynb_checkpoints/modified-checkpoint.py	/^    nums = 0$/;"	v
 numy	source/.ipynb_checkpoints/dynamic_damages-checkpoint.py	/^numy = len(y_grid)$/;"	v
@@ -6891,19 +6887,14 @@ params	source/.ipynb_checkpoints/modified_v5-checkpoint.py	/^params = (delta, et
 parentOffset	docs/_build/html/_static/jquery-3.5.1.js	/^			parentOffset = { top: 0, left: 0 };$/;"	c	class:AnonymousFunctionef6dc9e219d00
 partialTerm	docs/_build/html/_static/searchtools.js	/^    partialTerm: 2$/;"	p	class:Scorer
 partialTitle	docs/_build/html/_static/searchtools.js	/^    partialTitle: 7,$/;"	p	class:Scorer
-path10	docs/_build/html/_images/drawing.svg	/^       ry="40.419044" \/>$/;"	i
 path10	docs/_build/html/_static/drawing.svg	/^       ry="40.419044" \/>$/;"	i
 path10	docs/_static/drawing.svg	/^       ry="40.419044" \/>$/;"	i
-path24	docs/_build/html/_images/drawing.svg	/^       ry="23.532452" \/>$/;"	i
 path24	docs/_build/html/_static/drawing.svg	/^       ry="23.532452" \/>$/;"	i
 path24	docs/_static/drawing.svg	/^       ry="23.532452" \/>$/;"	i
-path78	docs/_build/html/_images/drawing.svg	/^       ry="8.4207602" \/>$/;"	i
 path78	docs/_build/html/_static/drawing.svg	/^       ry="8.4207602" \/>$/;"	i
 path78	docs/_static/drawing.svg	/^       ry="8.4207602" \/>$/;"	i
-path903	docs/_build/html/_images/drawing.svg	/^       transform="matrix(0.99998629,0.00523607,0,1,0,0)" \/>$/;"	i
 path903	docs/_build/html/_static/drawing.svg	/^       transform="matrix(0.99998629,0.00523607,0,1,0,0)" \/>$/;"	i
 path903	docs/_static/drawing.svg	/^       transform="matrix(0.99998629,0.00523607,0,1,0,0)" \/>$/;"	i
-path907	docs/_build/html/_images/drawing.svg	/^       ry="44.32814" \/>$/;"	i
 path907	docs/_build/html/_static/drawing.svg	/^       ry="44.32814" \/>$/;"	i
 path907	docs/_static/drawing.svg	/^       ry="44.32814" \/>$/;"	i
 pb	docs/_build/html/_static/jquery.js	/^null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"===b&&B(a,"input/;"	f
@@ -7053,20 +7044,15 @@ ra	docs/_build/html/_static/jquery.js	/^!function(a,b){"use strict";"object"==ty
 race	docs/_build/html/_static/javascripts/application.js	/^        }, o.race = function(i) {$/;"	f	function:o
 random	docs/_build/html/_static/underscore-1.12.0.js	/^  function random(min, max) {$/;"	f	function:AnonymousFunctionf76f8a270200
 range	docs/_build/html/_static/underscore-1.12.0.js	/^  function range(start, stop, step) {$/;"	f	function:AnonymousFunctionf76f8a270200
-rdf	docs/_build/html/_images/drawing.svg	/^   sodipodi:docname="drawing.svg">$/;"	n	uri:http://www.w3.org/1999/02/22-rdf-syntax-ns#
 rdf	docs/_build/html/_static/drawing.svg	/^   sodipodi:docname="drawing.svg">$/;"	n	uri:http://www.w3.org/1999/02/22-rdf-syntax-ns#
 rdf	docs/_static/drawing.svg	/^   sodipodi:docname="drawing.svg">$/;"	n	uri:http://www.w3.org/1999/02/22-rdf-syntax-ns#
 readyState	docs/_build/html/_static/jquery-3.5.1.js	/^				readyState: 0,$/;"	p	class:AnonymousFunctionef6dc9e217200.jqXHR
 readyState	docs/_build/html/_static/jquery.js	/^null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"===b&&B(a,"input/;"	p	class:AnonymousFunction877a8e6018000.y
 rect.highlighted	docs/_build/html/_static/basic.css	/^rect.highlighted {$/;"	c
-rect36	docs/_build/html/_images/drawing.svg	/^       id="rect36" \/>$/;"	d
-rect36	docs/_build/html/_images/drawing.svg	/^       id="rect36" \/>$/;"	i
 rect36	docs/_build/html/_static/drawing.svg	/^       id="rect36" \/>$/;"	d
 rect36	docs/_build/html/_static/drawing.svg	/^       id="rect36" \/>$/;"	i
 rect36	docs/_static/drawing.svg	/^       id="rect36" \/>$/;"	d
 rect36	docs/_static/drawing.svg	/^       id="rect36" \/>$/;"	i
-rect42	docs/_build/html/_images/drawing.svg	/^       id="rect42" \/>$/;"	d
-rect42	docs/_build/html/_images/drawing.svg	/^       id="rect42" \/>$/;"	i
 rect42	docs/_build/html/_static/drawing.svg	/^       id="rect42" \/>$/;"	d
 rect42	docs/_build/html/_static/drawing.svg	/^       id="rect42" \/>$/;"	i
 rect42	docs/_static/drawing.svg	/^       id="rect42" \/>$/;"	d
@@ -7295,7 +7281,6 @@ simulation	docs/_build/html/modules_index.html	/^<span id="simulation"><\/span><
 size	docs/_build/html/_static/underscore-1.12.0.js	/^  function size(obj) {$/;"	f	function:AnonymousFunctionf76f8a270200
 slice	docs/_build/html/_static/javascripts/application.js	/^            Array.prototype.slice.call(arguments).forEach(function(e) {$/;"	m	class:Array
 small	docs/_build/html/_static/stylesheets/application.css	/^small,sub,sup{$/;"	s
-sodipodi	docs/_build/html/_images/drawing.svg	/^   sodipodi:docname="drawing.svg">$/;"	n	uri:http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd
 sodipodi	docs/_build/html/_static/drawing.svg	/^   sodipodi:docname="drawing.svg">$/;"	n	uri:http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd
 sodipodi	docs/_static/drawing.svg	/^   sodipodi:docname="drawing.svg">$/;"	n	uri:http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd
 solu	source/.ipynb_checkpoints/Untitled-checkpoint.py	/^solu = pickle.load(open("..\/data\/solution\/solu_modified_40*200_0900", 'rb'))$/;"	v
@@ -7408,10 +7393,8 @@ sup	docs/_build/html/_static/stylesheets/application.css	/^sub,sup{$/;"	s
 sup	docs/_build/html/_static/stylesheets/application.css	/^sup{$/;"	s
 superMatcher	docs/_build/html/_static/jquery-3.5.1.js	/^		superMatcher = function( seed, context, xml, results, outermost ) {$/;"	f	function:matcherFromGroupMatchers
 sv	docs/_build/html/_static/javascripts/lunr/lunr.sv.js	/^!function(e,r){"function"==typeof define&&define.amd?define(r):"object"==typeof exports?module.e/;"	c	class:e
-svg	docs/_build/html/_images/drawing.svg	/^   sodipodi:docname="drawing.svg">$/;"	n	uri:http://www.w3.org/2000/svg
 svg	docs/_build/html/_static/drawing.svg	/^   sodipodi:docname="drawing.svg">$/;"	n	uri:http://www.w3.org/2000/svg
 svg	docs/_static/drawing.svg	/^   sodipodi:docname="drawing.svg">$/;"	n	uri:http://www.w3.org/2000/svg
-svg8	docs/_build/html/_images/drawing.svg	/^   sodipodi:docname="drawing.svg">$/;"	i
 svg8	docs/_build/html/_static/drawing.svg	/^   sodipodi:docname="drawing.svg">$/;"	i
 svg8	docs/_static/drawing.svg	/^   sodipodi:docname="drawing.svg">$/;"	i
 t	docs/_build/html/_static/javascripts/application.js	/^                }, t.update = function(e) {$/;"	f
@@ -7515,19 +7498,14 @@ template	docs/_build/html/_static/underscore-1.12.0.js	/^  function template(tex
 templates_path	docs/conf.py	/^templates_path = ['_templates']$/;"	v
 term	docs/_build/html/_static/searchtools.js	/^    term: 5,$/;"	p	class:Scorer
 testContext	docs/_build/html/_static/jquery-3.5.1.js	/^function testContext( context ) {$/;"	f
-text32	docs/_build/html/_images/drawing.svg	/^       transform="scale(1.122722,0.89069245)"><tspan$/;"	i
 text32	docs/_build/html/_static/drawing.svg	/^       transform="scale(1.122722,0.89069245)"><tspan$/;"	i
 text32	docs/_static/drawing.svg	/^       transform="scale(1.122722,0.89069245)"><tspan$/;"	i
-text34	docs/_build/html/_images/drawing.svg	/^       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font/;"	i
 text34	docs/_build/html/_static/drawing.svg	/^       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font/;"	i
 text34	docs/_static/drawing.svg	/^       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font/;"	i
-text40	docs/_build/html/_images/drawing.svg	/^       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font/;"	i
 text40	docs/_build/html/_static/drawing.svg	/^       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font/;"	i
 text40	docs/_static/drawing.svg	/^       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font/;"	i
-text48	docs/_build/html/_images/drawing.svg	/^       transform="scale(1.1192039,0.89349225)"><tspan$/;"	i
 text48	docs/_build/html/_static/drawing.svg	/^       transform="scale(1.1192039,0.89349225)"><tspan$/;"	i
 text48	docs/_static/drawing.svg	/^       transform="scale(1.1192039,0.89349225)"><tspan$/;"	i
-text52	docs/_build/html/_images/drawing.svg	/^       transform="scale(1.128319,0.88627419)"><tspan$/;"	i
 text52	docs/_build/html/_static/drawing.svg	/^       transform="scale(1.128319,0.88627419)"><tspan$/;"	i
 text52	docs/_static/drawing.svg	/^       transform="scale(1.128319,0.88627419)"><tspan$/;"	i
 th	docs/_build/html/_static/basic.css	/^th {$/;"	s
@@ -7572,13 +7550,10 @@ tr	docs/_build/html/_static/javascripts/lunr/lunr.tr.js	/^!function(r,i){"functi
 trigger	docs/_build/html/_static/jquery-3.5.1.js	/^		trigger: function() {$/;"	m	class:jQuery.event.special
 trimmerSupport	docs/_build/html/_static/javascripts/lunr/lunr.stemmer.support.js	/^!function(r,t){"function"==typeof define&&define.amd?define(t):"object"==typeof exports?module.e/;"	c	class:r
 ts_	docs/_build/html/_static/javascripts/lunr/tinyseg.js	/^!function(_,t){"function"==typeof define&&define.amd?define(t):"object"==typeof exports?module.e/;"	m	class:t
-tspan30	docs/_build/html/_images/drawing.svg	/^         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fon/;"	i
 tspan30	docs/_build/html/_static/drawing.svg	/^         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fon/;"	i
 tspan30	docs/_static/drawing.svg	/^         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fon/;"	i
-tspan46	docs/_build/html/_images/drawing.svg	/^         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fon/;"	i
 tspan46	docs/_build/html/_static/drawing.svg	/^         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fon/;"	i
 tspan46	docs/_static/drawing.svg	/^         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fon/;"	i
-tspan50	docs/_build/html/_images/drawing.svg	/^         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fon/;"	i
 tspan50	docs/_build/html/_static/drawing.svg	/^         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fon/;"	i
 tspan50	docs/_static/drawing.svg	/^         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fon/;"	i
 type	docs/_build/html/_static/jquery-3.5.1.js	/^		type: true,$/;"	p	class:AnonymousFunctionef6dc9e20100.preservedScriptAttributes
@@ -7662,6 +7637,7 @@ white	docs/_build/html/_static/stylesheets/application-palette.css	/^[data-md-co
 window	docs/_build/html/_static/jquery-3.5.1.js	/^		window[ callbackName ] = function() {$/;"	f	function:AnonymousFunctionef6dc9e219000
 winnow	docs/_build/html/_static/jquery-3.5.1.js	/^function winnow( elements, qualifier, not ) {$/;"	f
 wn	docs/_build/html/_static/underscore.js	/^var n="1.12.0",r="object"==typeof self&&self.self===self&&self||"object"==typeof global&&global./;"	f	function:AnonymousFunction320182da0200
+worstcase	docs/sec7/sec7_Sensitivity.rst	/^.. _worstcase:$/;"	T	section:7.2 Structured climate uncertainty
 wrap	docs/_build/html/_static/underscore-1.12.0.js	/^  function wrap(func, wrapper) {$/;"	f	function:AnonymousFunctionf76f8a270200
 x	docs/_build/html/_static/underscore.js	/^var n="1.12.0",r="object"==typeof self&&self.self===self&&self||"object"==typeof global&&global./;"	f	function:AnonymousFunction320182da0200
 xa	docs/_build/html/_static/jquery.js	/^!function(a,b){"use strict";"object"==typeof module&&"object"==typeof module.exports?module.expo/;"	f

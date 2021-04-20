@@ -21,6 +21,17 @@ We start by imposing :math:`\xi_b = \xi_p = 5`, and also explore other
 sets of parameters
 :math:`(\xi_b, \xi_p) \in \{(\infty, \infty), (0.3,5),(0.3,0.3)\}`.
 
+The implied risk aversion under recursive utility is twenty one, which is certainly large but typically not dismissed as too large in the empirical literature on long-run risk.  
+The Brownian drift induced by a robustness concern is negligible,  but there is a notable re-weighting  of the three damage functions.    
+We plot the altered probabilities over damage models in
+the figure below.
+Not surprisingly, the probabilities are ordered depending upon the  severity of the  damage specification.  
+The probability on the extreme damage specification is monotone increasing in the temperature anomaly.  
+Borrowing and updating a specification of growth rate uncertainty of :cite:t:`HansenHeatonLi:2008`, :cite:t:`HansenSargent:2020` fit a simple consumption/capital model to aggregate data designed to measure macroeconomic growth-rate uncertainty.  
+Their model is the undamaged version of the model we pose here, with  two shocks.  
+One shock is to the stochastic process for growth rate productivity  and the other is an independent shock to only the capital productivity.  
+These shocks imply two of  the consumption shocks in :cite:t:`BansalYaron:2004`. [#fn1]_
+
 .. code:: ipython3
 
     import pandas as pd
@@ -223,12 +234,16 @@ sets of parameters
                             })                };                });            </script>        </div>
 
 
-Compute the implied drift distortion:
+**Compute the implied drift distortion:**
 
 .. math::
 
 
    h^* = - \cfrac{\frac{d\phi(y)}{dy} + \frac{(1-\eta)}{\delta}(\gamma_1 + \gamma_2 y) }{\xi_b}\sigma_y \tilde e
+
+We now put aside the growth uncertainty channel in the long-run risk model and focus on the uncertainty in the temperature dynamics and damage function specification.  Moreover, the statistical challenges for the geo-scientific inputs look quite different than those pertinent to determining the alternative damage specifications.   For this reason, we break the link between :math:`\xi_p` and :math:`\xi_b` by allowing  for a much smaller penalty :math:`\xi_b` while leaving :math:`\xi_p = 5`.  We report results for :math:`\xi_b = 0.3` with the implied drift distortion of :math:`.112`. This distortion is essentially constant as a function of the state variable and hence over time.  A smaller value of :math:`\xi_b` will induce a larger change in the drift.
+
+We consider another configuration in which :math:`\xi_b = \xi_p = 0.3`.  With a :math:`\xi_p` parameter of this magnitude, the tilted probabilities load up almost entirely on the extreme damage specification while the Brownian distortion remains essentially at :math:`.112`.
 
 The distortion is essentially constant as a function of the state
 variable and hence over time. The drift distortion over time the four
@@ -269,8 +284,12 @@ parameter configuration is as the following:
                             })                };                });            </script>        </div>
 
 
-.. code:: ipython3
 
+
+.. code:: ipython3
+   :name: emission
+   :caption: **Emission trajectories**
+    
     # emission trajectories
     # code omitted here.
 
@@ -303,8 +322,7 @@ parameter configuration is as the following:
                             })                };                });            </script>        </div>
 
 
-Social cost of carbon, expressed in logarithms, for
-:math:`y \in [0, \bar y]`.
+**Social cost of carbon, expressed in logarithms, for** :math:`y \in [0, \bar y]`.
 
 Compute as follows:
 
@@ -328,6 +346,8 @@ Initial consumption, :math:`C_0` 17.39
 ================================ ==========
 
 .. code:: ipython3
+   :name: logscc
+   :caption: SCC in logarithms
 
     # log SSC trajectories
     # code omitted here.
@@ -368,6 +388,18 @@ Initial consumption, :math:`C_0` 17.39
 We go back to the :math:`(\xi_a, \xi_b, \xi_p) = (0.01, \infty, 5)`
 setting.
 
+This numerical value itself has little meaning.  What is of more interest is the implied adjustment in the probabilities for the :math:`\theta_\ell` parameters associated with the :math:`144` climate models.  
+Recall that our baseline probabilities assign equal weight to all 144 models.
+:numref:`plot`  shows both the original histogram (in :math:`\color{red}{red}`) and the altered histogram (in :math:`\color{blue}{blue}`).   
+As we expect, there is a shift to the right towards larger values of :math:`\theta_\ell`, but arguably not in an extreme fashion.  
+While we allow for the altered histograms to depend on the state :math:`y`, in fact we find very little variation in our calculations.  
+The implied mean shift in the distribution is essentially the same as that implied by the unstructured drift distortion.  
+In effect, the tilted histogram provides an interpretation for the robust drift distortion since we essentially chose the penalty parameter  :math:`\xi_a = .01`  to achieve this outcome. [#fn2]_
+We chose the penalty parameter  :math:`\xi_a = .01` in part to achieve this outcome.  
+The implied emissions and social cost of carbon trajectories will be essentially the same as those depicted in Figures :numref:`emission` and :numref:`logscc`. 
+
+Decreasing :math:`\xi_a` will lead to a larger shift upwards in the distribution of cross model climate values of :math:`\theta_{\ell}`'s.
+
 .. code:: ipython3
 
     ξ_w = 100_000
@@ -407,8 +439,12 @@ setting.
     Converged. Total iteration: 443;	 LHS Error: 9.751046192718604e-09;	 RHS Error 0.0008702963234703057
 
 
-.. code:: ipython3
+.. _worstcase:
 
+.. code:: ipython3
+   :name: plot
+   :caption: Worstcase probabilities 
+    
     # worst case probability
     # code omitted here.
 
@@ -442,3 +478,6 @@ setting.
                             })                };                });            </script>        </div>
 
 
+.. [#fn1] :cite:t:`BansalYaron:2004` also include a shock to stochastic volatility that we abstract from here and consider implications for changing the intertemporal elasticity of substitution.
+
+.. [#fn2] For an example in which the structured uncertainty does simply imitate a model misspecification concern see :cite:t:`HansenSargent:2020`.

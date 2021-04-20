@@ -86,3 +86,7 @@ html_static_path = ['_static']
 
 # biblipgraphy file
 bibtex_bibfiles = ['climate.bib']
+
+# ref
+numfig = True
+numfig_format = {'code-block': 'Figure %s'}
