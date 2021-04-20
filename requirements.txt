@@ -175,7 +175,6 @@ six==1.15.0
 smmap==3.0.5
 sniffio==1.2.0
 snowballstemmer==2.1.0
-SolveLinSys==0.0.1
 soupsieve==2.2.1
 Sphinx==3.5.3
 sphinx-gallery==0.8.2
