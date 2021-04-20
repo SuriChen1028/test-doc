@@ -179,9 +179,6 @@ about :math:`\theta`.
    offsetting impacts of nonlinearity in temperature and climate
    dynamics.
 
-Next section:
-
-`Section 3: Stochastic damage <sec3_StochasticDamage.ipynb>`__
 
 .. [#fn1] `See equation (5) of :cite:t:`Joosetal:2013` and  equations (1)-(3) of :cite:t:`Pierrehumbert:2014`.   :cite:t:`Pierrehumbert:2014` puts the change in radiative forcing equal to a constant times the logarithm of the ratio of atmospheric :math:`CO_2` at date :math:`t` to atmospheric :math:`CO_2`` at baseline date zero. His  Figures 1 and 2 illustrate how an approximation of the Earth System dynamics by three exponentials plus a constant tracks a radiative forcing induced by a pulse into the atmosphere at a baseline date from the atmosphere works quite well with half lives of approximately six, sixty five, and four hundred and fifty years.`
 

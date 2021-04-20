@@ -4,7 +4,7 @@
 !_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
 !_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
 !_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
-!_TAG_PROC_CWD	/home/suri/Dropbox/wrestling_climate/WrestlingClimate/	//
+!_TAG_PROC_CWD	/home/suri/Dropbox/test-doc/	//
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
@@ -2678,11 +2678,8 @@ $a	docs/_build/html/_static/jquery.js	/^a.removeEventListener("load",S),r.ready(
 :root .fa-rotate-270	docs/_build/html/_static/fonts/font-awesome.css	/^ *\/@font-face{font-family:FontAwesome;font-style:normal;font-weight:400;src:url("specimen\/Font/;"	c
 :root .fa-rotate-90	docs/_build/html/_static/fonts/font-awesome.css	/^ *\/@font-face{font-family:FontAwesome;font-style:normal;font-weight:400;src:url("specimen\/Font/;"	c
 <	docs/_build/html/_static/underscore.js	/^var n="1.12.0",r="object"==typeof self&&self.self===self&&self||"object"==typeof global&&global./;"	p	class:AnonymousFunction320182da0200.Cn
-<a name="acessing"></a>Acessing our project	.ipynb_checkpoints/README-checkpoint.md	/^## <a name="acessing"><\/a>Acessing our project$/;"	s	chapter:Climate Change Uncertainty Spillover in the Macroeconomy
 <a name="acessing"></a>Acessing our project	README.md	/^## <a name="acessing"><\/a>Acessing our project$/;"	s	chapter:Climate Change Uncertainty Spillover in the Macroeconomy
-<a name="prerequisite"></a>Prerequisite	.ipynb_checkpoints/README-checkpoint.md	/^## <a name="prerequisite"><\/a>Prerequisite$/;"	s	chapter:Climate Change Uncertainty Spillover in the Macroeconomy
 <a name="prerequisite"></a>Prerequisite	README.md	/^## <a name="prerequisite"><\/a>Prerequisite$/;"	s	chapter:Climate Change Uncertainty Spillover in the Macroeconomy
-<a name="quick-guide"></a>Quick user's guide	.ipynb_checkpoints/README-checkpoint.md	/^## <a name="quick-guide"><\/a>Quick user's guide$/;"	s	chapter:Climate Change Uncertainty Spillover in the Macroeconomy
 <a name="quick-guide"></a>Quick user's guide	README.md	/^## <a name="quick-guide"><\/a>Quick user's guide$/;"	s	chapter:Climate Change Uncertainty Spillover in the Macroeconomy
 >	docs/_build/html/_static/underscore.js	/^var n="1.12.0",r="object"==typeof self&&self.self===self&&self||"object"==typeof global&&global./;"	p	class:AnonymousFunction320182da0200.Cn
 A	docs/_build/html/_static/javascripts/lunr/tinyseg.js	/^!function(_,t){"function"==typeof define&&define.amd?define(t):"object"==typeof exports?module.e/;"	p	class:AnonymousFunction9467156c0100.AnonymousFunction9467156c0200.t.UC1__
@@ -4195,11 +4192,8 @@ Castruccioetal	docs/climate.bib	/^@article{Castruccioetal:2014,$/;"	a
 Cerreia-Vioglioetal	docs/climate.bib	/^@misc{Cerreia-Vioglioetal:2021,$/;"	n
 Charney	docs/climate.bib	/^@book{Charney.ea:1979,$/;"	b
 Chernoff	docs/climate.bib	/^@article{Chernoff:1952,$/;"	a
-Climate Change Uncertainty Spillover in the Macroeconomy	.ipynb_checkpoints/README-checkpoint.md	/^# Climate Change Uncertainty Spillover in the Macroeconomy$/;"	c
 Climate Change Uncertainty Spillover in the Macroeconomy	README.md	/^# Climate Change Uncertainty Spillover in the Macroeconomy$/;"	c
 Cn	docs/_build/html/_static/underscore.js	/^var n="1.12.0",r="object"==typeof self&&self.self===self&&self||"object"==typeof global&&global./;"	c	class:AnonymousFunction320182da0200
-Computation Strategy	.ipynb_checkpoints/computation-checkpoint.html	/^  <\/h1>$/;"	h
-Computation Strategy	.ipynb_checkpoints/computation_strategy-checkpoint.md	/^# Computation Strategy$/;"	c
 Converged	source/.ipynb_checkpoints/modified-checkpoint.py	/^    Converged = 0$/;"	v
 Ctor	docs/_build/html/_static/underscore-1.12.0.js	/^    Ctor.prototype = prototype;$/;"	c
 Cyy	source/.ipynb_checkpoints/dynamic_damage_1d-checkpoint.py	/^        Cyy = np.zeros(y_grid_cap.shape)$/;"	v
@@ -4508,8 +4502,6 @@ OOO	docs/_build/html/_static/javascripts/lunr/tinyseg.js	/^!function(_,t){"funct
 Oa	docs/_build/html/_static/jquery.js	/^a.removeEventListener("load",S),r.ready()}"complete"===d.readyState||"loading"!==d.readyState&&!/;"	f
 Ob	docs/_build/html/_static/jquery.js	/^null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"===b&&B(a,"input/;"	f
 Olsonetal	docs/climate.bib	/^@article{Olsonetal:2012,$/;"	a
-One state variable: reserve $r$	.ipynb_checkpoints/computation-checkpoint.html	/^  <\/h2>$/;"	i
-One state variable: reserve $r$	.ipynb_checkpoints/computation_strategy-checkpoint.md	/^## One state variable: reserve $r\$$/;"	s	chapter:Computation Strategy
 Or	docs/_build/html/_static/underscore.js	/^var n="1.12.0",r="object"==typeof self&&self.self===self&&self||"object"==typeof global&&global./;"	f	function:AnonymousFunction320182da0200
 P	docs/_build/html/_static/jquery.js	/^!function(a,b){"use strict";"object"==typeof module&&"object"==typeof module.exports?module.expo/;"	f
 PDESolver	source/.ipynb_checkpoints/supportfunctions-checkpoint.py	/^def PDESolver(stateSpace, A, B_r, B_f, B_k, C_rr, C_ff, C_kk, D, v0, ε = 1, tol = -10, smartgue/;"	f
@@ -4584,15 +4576,12 @@ TW2__	docs/_build/html/_static/javascripts/lunr/tinyseg.js	/^!function(_,t){"fun
 TW3__	docs/_build/html/_static/javascripts/lunr/tinyseg.js	/^!function(_,t){"function"==typeof define&&define.amd?define(t):"object"==typeof exports?module.e/;"	c	class:AnonymousFunction9467156c0100.AnonymousFunction9467156c0200.t
 TW4__	docs/_build/html/_static/javascripts/lunr/tinyseg.js	/^!function(_,t){"function"==typeof define&&define.amd?define(t):"object"==typeof exports?module.e/;"	c	class:AnonymousFunction9467156c0100.AnonymousFunction9467156c0200.t
 T_b	source/.ipynb_checkpoints/supportfunctions-checkpoint.py	/^T_b = 273.15 + 13.9$/;"	v
-Table of contents	.ipynb_checkpoints/README-checkpoint.md	/^## Table of contents$/;"	s	chapter:Climate Change Uncertainty Spillover in the Macroeconomy
 Table of contents	README.md	/^## Table of contents$/;"	s	chapter:Climate Change Uncertainty Spillover in the Macroeconomy
 Tb	source/.ipynb_checkpoints/supportfunctions-checkpoint.py	/^Tb = T_b$/;"	v
 Tc	source/.ipynb_checkpoints/supportfunctions-checkpoint.py	/^Tc = 269$/;"	v
 Thrower	docs/_build/html/_static/jquery-3.5.1.js	/^function Thrower( ex ) {$/;"	f
 Tn	docs/_build/html/_static/underscore.js	/^var n="1.12.0",r="object"==typeof self&&self.self===self&&self||"object"==typeof global&&global./;"	f	function:AnonymousFunction320182da0200
 Tween	docs/_build/html/_static/jquery-3.5.1.js	/^function Tween( elem, options, prop, end, easing ) {$/;"	f
-Two state variable: $(r, z_2)$	.ipynb_checkpoints/computation-checkpoint.html	/^  <\/h2>$/;"	i
-Two state variable: $(r, z_2)$	.ipynb_checkpoints/computation_strategy-checkpoint.md	/^## Two state variable: $(r, z_2)\$$/;"	s	chapter:Computation Strategy
 U	docs/_build/html/genindex.html	/^<h2 id="U">U<\/h2>$/;"	I
 U	docs/_build/html/genindex.html	/^<h2 id="U">U<\/h2>$/;"	i
 UB	docs/_build/html/_static/javascripts/lunr/tinyseg.js	/^!function(_,t){"function"==typeof define&&define.amd?define(t):"object"==typeof exports?module.e/;"	p	class:AnonymousFunction9467156c0100.AnonymousFunction9467156c0200.t.BP1__
