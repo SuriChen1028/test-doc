@@ -10,16 +10,17 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import os
+import sys
+sys.path.insert(0, os.path.abspath('../source/'))
+sys.path.insert(0, os.path.abspath('../'))
 
 
 # -- Project information -----------------------------------------------------
 
-project = 'test'
-copyright = '2021, suri'
-author = 'suri'
+project = 'UncertaintySpillover'
+copyright = '2021, SuriChen'
+author = 'SuriChen'
 
 
 # -- General configuration ---------------------------------------------------
@@ -28,6 +29,13 @@ author = 'suri'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'nbsphinx',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.napoleon',
+    'sphinxcontrib.bibtex',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.autosectionlabel',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -46,9 +54,35 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #
 # html_theme = 'alabaster'
 import sphinx_material
-html_theme = "sphinx_material"
-
+html_context = sphinx_material.get_html_context()
+html_theme_path = sphinx_material.html_theme_path()
+html_theme = 'sphinx_material'
+html_theme_options = {
+    'navigation_with_keys': True,
+    'nav_title': 'UncertaintySpillover',
+    #'color_primary': 'blue',
+    'color_accent': 'light-blue',
+    'repo_url': 'https://github.com/lphansen/WrestlingClimate',
+    'repo_name': 'Uncertainty Spillover',
+    'repo_type': 'github',
+    'globaltoc_depth': 3,
+    'globaltoc_collapse': True,
+    'master_doc': True,
+    'logo_icon': '&#xe55d',
+}
+html_show_sourcelink = False
+html_sidebars = {
+    '**': [
+        'globaltoc.html',
+        'localtoc.html',
+        'searchbox.html',
+        'logo-text.html',
+    ]
+}
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# biblipgraphy file
+bibtex_bibfiles = ['climate.bib']
